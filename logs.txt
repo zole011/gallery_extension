@@ -1,0 +1,5 @@
+Imamo Glavni direktorijum u user_uplod direjtorijumu, naprimer user_uplod/galerija
+Taj direjtorijum sadrizi sve galerije koje svaka za sebe ima direktorijum, naprimer user_uplod/galerija/1
+U tom direktorijumu se zapravo nalaze slike...
+
+git remote set-url origin https://github.com/zole011/typo3_gallery
