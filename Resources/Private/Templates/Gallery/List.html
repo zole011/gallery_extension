@@ -1,0 +1,10 @@
+<h2>Galerije u folderu</h2>
+<ul>
+    <f:for each="{galleries}" as="gallery">
+        <li>
+            <a href="{f:uri.action(action:'show', arguments:{galleryIdentifier: gallery.identifier})}">
+                {gallery.name}
+            </a>
+        </li>
+    </f:for>
+</ul>

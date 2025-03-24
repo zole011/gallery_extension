@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<T3DataStructure>
+    <sheets>
+        <sheet index="general">
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Gallery Configuration</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <selectFolder>
+                        <TCEforms>
+                            <label>Select Gallery Folder</label>
+                            <config>
+                                <type>group</type>
+                                <internal_type>folder</internal_type>
+                                <size>1</size>
+                                <maxitems>1</maxitems>
+                                <minitems>1</minitems>
+                                <show_thumbs>1</show_thumbs>
+                            </config>
+                        </TCEforms>
+                    </selectFolder>
+                </el>
+            </ROOT>
+        </sheet>
+    </sheets>
+</T3DataStructure>

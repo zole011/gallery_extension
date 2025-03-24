@@ -1,0 +1,18 @@
+plugin.tx_galleryextension_gallery {
+    view {
+        templateRootPaths.0 = EXT:gallery_extension/Resources/Private/Templates/
+        partialRootPaths.0 = EXT:gallery_extension/Resources/Private/Partials/
+        layoutRootPaths.0 = EXT:gallery_extension/Resources/Private/Layouts/
+    }
+    settings {
+        selectFolder = user_upload/galerija  # Putanja za galerije, može biti promenjena
+    }
+}
+
+tt_content.list.20.gallery_extension_gallery = USER
+tt_content.list.20.gallery_extension_gallery {
+    userFunc = TYPO3\CMS\Extbase\Core\Bootstrap->run
+    extensionName = GalleryExtension
+    pluginName = Gallery
+    vendorName = YourVendor
+}

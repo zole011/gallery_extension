@@ -1,0 +1,12 @@
+<h2>Galerija: {galleryName}</h2>
+<ul style="display: flex; flex-wrap: wrap;">
+    <f:for each="{images}" as="image">
+        <li style="margin: 10px; list-style: none;">
+            <a href="{image.url}" target="_blank">
+                <img src="{image.url}" alt="{image.title}" style="width: 150px; height: 150px; object-fit: cover;" />
+            </a>
+            <p>{image.title}</p>
+        </li>
+    </f:for>
+</ul>
+<a href="javascript:history.back()">Nazad</a>
